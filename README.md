@@ -1,1 +1,5 @@
 # UIImageViewCategory
+
+经常在项目中遇到，图片很小，但是点击范围却要很大的情况
+这次写了一个UIImageView的类别来处理这种情况，当然也可以写一个UIButton
+就是在类别中利用runtime机制来增加一个属性
